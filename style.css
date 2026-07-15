@@ -1,88 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrea Amido | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-<body>
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fafafa;
+}
 
-<header>
-    <div class="container">
-        <h1>Andrea Amido</h1>
-        <p>General Virtual Assistant</p>
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
 
-        <a href="#contact" class="btn">Hire Me</a>
-    </div>
-</header>
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 3rem 1.5rem;
+}
 
-<section id="about" class="container">
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
 
-<h2>About Me</h2>
+header p {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 1.5rem;
+}
 
-<p>
-I am a Bachelor of Science in Information Technology (BSIT) student with strong computer and administrative skills. Through academic projects and daily computer work, I have developed experience using Microsoft Office, Google Workspace, data entry, internet research, document organization, and file management.
+.btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-I am a fast learner who follows instructions carefully and pays close attention to detail. I am dependable, organized, and committed to producing accurate, high-quality work while meeting deadlines.
+.btn:hover {
+    background-color: #2980b9;
+}
 
-I am seeking an opportunity to gain real-world experience in virtual assistance and administrative support while continuously improving my skills.
-</p>
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+}
 
-</section>
+section p {
+    margin-bottom: 1rem;
+}
 
-<section id="skills" class="container">
+#skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
 
-<h2>Skills</h2>
+#skills li {
+    background-color: #3498db;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
 
-<ul>
-
-<li>Data Entry</li>
-
-<li>Internet Research</li>
-
-<li>Microsoft Excel</li>
-
-<li>Microsoft Word</li>
-
-<li>Google Sheets</li>
-
-<li>Email Management</li>
-
-<li>Calendar Management</li>
-
-<li>File Management</li>
-
-<li>Administrative Support</li>
-
-</ul>
-
-</section>
-
-<section id="education" class="container">
-
-<h2>Education</h2>
-
-<p>
-
-Bachelor of Science in Information Technology
-
-<br>
-
-Mindoro State University
-
-</p>
-
-</section>
-
-<section id="contact" class="container">
-
-<h2>Contact</h2>
-
-<p>Email: your@email.com</p>
-
-</section>
-
-</body>
-</html>
+#contact {
+    background-color: #f0f0f0;
+}

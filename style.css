@@ -7,8 +7,8 @@
 body {
     font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
     line-height: 1.7;
-    color: #333;
-    background-color: #f9f9f9;
+    color: #4a3f2f;
+    background-color: #fffdf5;
 }
 
 .container {
@@ -19,50 +19,53 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #1f2937, #374151);
-    color: white;
+    background: linear-gradient(135deg, #fff3c4, #ffe08a);
+    color: #4a3f2f;
     text-align: center;
     padding: 4rem 1.5rem;
+    border-bottom: 4px solid #ffcc4d;
 }
 
 header h1 {
     font-size: 3rem;
     margin-bottom: 0.5rem;
     letter-spacing: 1px;
+    color: #7a5c00;
 }
 
 header p {
     font-size: 1.2rem;
-    color: #d1d5db;
+    color: #7a6a3f;
     margin-bottom: 1.8rem;
 }
 
 .btn {
     display: inline-block;
-    background-color: #3b82f6;
-    color: white;
+    background-color: #ffb703;
+    color: #4a3200;
     padding: 0.8rem 2rem;
     border-radius: 30px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.25s ease;
+    box-shadow: 0 4px 10px rgba(255, 183, 3, 0.35);
 }
 
 .btn:hover {
-    background-color: #2563eb;
+    background-color: #ffa200;
     transform: translateY(-2px);
-    box-shadow: 0 6px 14px rgba(59, 130, 246, 0.35);
+    box-shadow: 0 6px 14px rgba(255, 162, 0, 0.45);
 }
 
 /* Sections */
 section {
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid #f0e6c8;
 }
 
 section h2 {
     font-size: 1.9rem;
     margin-bottom: 1.2rem;
-    color: #1f2937;
+    color: #7a5c00;
     position: relative;
     display: inline-block;
 }
@@ -72,13 +75,13 @@ section h2::after {
     display: block;
     width: 50px;
     height: 3px;
-    background-color: #3b82f6;
+    background-color: #ffb703;
     margin-top: 6px;
     border-radius: 2px;
 }
 
 section p {
-    color: #4b5563;
+    color: #5c4f38;
     margin-bottom: 1rem;
 }
 
@@ -92,26 +95,27 @@ section p {
 }
 
 #skills li {
-    background-color: #e0edff;
-    color: #1d4ed8;
+    background-color: #fff3c4;
+    color: #8a6400;
     padding: 0.5rem 1.1rem;
     border-radius: 20px;
     font-size: 0.9rem;
     font-weight: 500;
+    border: 1px solid #ffe08a;
 }
 
 /* Education */
 #education p {
-    background-color: white;
+    background-color: #fffef8;
     padding: 1.2rem 1.5rem;
-    border-left: 4px solid #3b82f6;
+    border-left: 4px solid #ffb703;
     border-radius: 6px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 /* Contact */
 #contact {
-    background-color: #f3f4f6;
+    background-color: #fff8e1;
     text-align: center;
     border-bottom: none;
 }
@@ -119,7 +123,144 @@ section p {
 #contact p {
     font-size: 1.1rem;
     font-weight: 500;
-    color: #1f2937;
+    color: #4a3f2f;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+    .container {
+        padding: 2rem 1.2rem;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+    line-height: 1.7;
+    color: #4a3f2f;
+    background-color: #fffdf5;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #fff3c4, #ffe08a);
+    color: #4a3f2f;
+    text-align: center;
+    padding: 4rem 1.5rem;
+    border-bottom: 4px solid #ffcc4d;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+    color: #7a5c00;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #7a6a3f;
+    margin-bottom: 1.8rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ffb703;
+    color: #4a3200;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 10px rgba(255, 183, 3, 0.35);
+}
+
+.btn:hover {
+    background-color: #ffa200;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(255, 162, 0, 0.45);
+}
+
+/* Sections */
+section {
+    border-bottom: 1px solid #f0e6c8;
+}
+
+section h2 {
+    font-size: 1.9rem;
+    margin-bottom: 1.2rem;
+    color: #7a5c00;
+    position: relative;
+    display: inline-block;
+}
+
+section h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #ffb703;
+    margin-top: 6px;
+    border-radius: 2px;
+}
+
+section p {
+    color: #5c4f38;
+    margin-bottom: 1rem;
+}
+
+/* Skills */
+#skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    margin-top: 1rem;
+}
+
+#skills li {
+    background-color: #fff3c4;
+    color: #8a6400;
+    padding: 0.5rem 1.1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid #ffe08a;
+}
+
+/* Education */
+#education p {
+    background-color: #fffef8;
+    padding: 1.2rem 1.5rem;
+    border-left: 4px solid #ffb703;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Contact */
+#contact {
+    background-color: #fff8e1;
+    text-align: center;
+    border-bottom: none;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #4a3f2f;
 }
 
 /* Responsive */

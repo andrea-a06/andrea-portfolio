@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skills & Work — Andrea Amido</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap nav-inner">
+    <a href="index.html" class="brand">Andrea Amido</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="work.html" class="active">Skills &amp; Work</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<header class="section" style="padding-bottom:20px;">
+  <div class="wrap section-head">
+    <span class="eyebrow">What I bring to the table</span>
+    <h1 style="font-size:clamp(1.8rem,4vw,2.6rem); margin-top:0.3em;">Skills &amp; <mark class="hl">Work</mark></h1>
+    <p class="lede">A running list of the tools I use well, and the projects that show it. New pieces get added here as I finish them.</p>
+  </div>
+</header>
+
+<!-- SKILLS -->
+<section class="wrap" style="padding-bottom:20px;">
+  <div class="skill-block">
+    <h3>Core skills</h3>
+    <div class="chip-row">
+      <span class="chip core">Microsoft Excel</span>
+      <span class="chip core">Microsoft Word</span>
+      <span class="chip core">Microsoft PowerPoint</span>
+      <span class="chip core">Google Sheets</span>
+      <span class="chip core">Data Entry</span>
+      <span class="chip core">Email Management</span>
+    </div>
+  </div>
+  <div class="skill-block">
+    <h3>Also good at</h3>
+    <div class="chip-row">
+      <span class="chip">Calendar Management</span>
+      <span class="chip">Attention to Detail</span>
+      <span class="chip">Typing / Transcription</span>
+      <span class="chip">Time Management</span>
+      <span class="chip">File Management</span>
+      <span class="chip">Internet Research</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Portfolio</span>
+      <h2>My Work</h2>
+      <p class="lede">Academic outputs, admin exercises, and personal projects — each card is a quick look, click through for the full file.</p>
+    </div>
+
+    <!--
+      ============================================================
+      HOW TO ADD A NEW PROJECT
+      Copy one <article class="project-card"> block below, then edit:
+        - .tag        -> category (e.g. "Excel", "Report", "School Project")
+        - <h3>         -> project title
+        - .desc        -> 1–2 sentence description
+        - .proj-link   -> replace href="#" with the link to your file/drive,
+                          and change the text if it's not "View file"
+      Paste your new block anywhere inside <div class="project-grid">.
+      ============================================================
+    -->
+    <div class="project-grid">
+
+      <article class="project-card">
+        <span class="tag">Excel</span>
+        <h3>Inventory Tracking Sheet</h3>
+        <p class="desc">A formula-driven spreadsheet for tracking stock levels, reorder points, and monthly usage.</p>
+        <a href="#" class="link-arrow">View file →</a>
+      </article>
+
+      <article class="project-card">
+        <span class="tag">Document Design</span>
+        <h3>Company Letterhead &amp; Report Template</h3>
+        <p class="desc">A clean, reusable Word template built for a school administrative exercise.</p>
+        <a href="#" class="link-arrow">View file →</a>
+      </article>
+
+      <article class="project-card">
+        <span class="tag">Presentation</span>
+        <h3>Onboarding Slide Deck</h3>
+        <p class="desc">A PowerPoint deck summarizing a sample new-hire onboarding process, step by step.</p>
+        <a href="#" class="link-arrow">View file →</a>
+      </article>
+
+      <!-- Placeholder card — delete this once you add a real project -->
+      <article class="project-card empty">
+        Add your next project here
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-row">
+    <span>© 2026 Andrea Amido</span>
+    <div class="foot-links">
+      <a href="index.html">Home</a>
+      <a href="work.html">Skills &amp; Work</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" aria-label="Back to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>

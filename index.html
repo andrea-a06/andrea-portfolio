@@ -1,128 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrea Amido | Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Caveat:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Andrea Amido — Administrative & Virtual Assistant Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav class="tabbar">
-    <div class="tabbar-inner">
-        <span class="tab-logo">AA<span class="dot">.</span></span>
-        <div class="tabs">
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#desk">Availability</a>
-            <a href="#contact">Say Hi</a>
-        </div>
-    </div>
+<div class="ribbon">Open for work</div>
+
+<!-- position: sticky nav -->
+<nav class="site-nav">
+  <div class="wrap nav-inner">
+    <a href="index.html" class="brand"><span class="dot"></span> Andrea Amido</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="work.html">Skills &amp; Work</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
 </nav>
 
+<!-- HERO -->
 <header class="hero">
-    <div class="lanyard">
-        <span class="lanyard-string"></span>
-        <div class="badge">
-            <div class="badge-hole"></div>
-            <span class="badge-stamp">✓ VERIFIED</span>
-            <img src="profile.jpg" alt="Andrea Amido" class="profile-pic">
-            <h1>Andrea Amido</h1>
-            <p class="role">Administrative Assistant</p>
-            <p class="tagline">Data Entry &middot; Internet Research &middot; Google Sheets &middot; Excel</p>
-            <a href="#contact" class="btn">Let's Work Together</a>
-        </div>
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">BSIT Student · Mindoro State University</span>
+      <h1 class="headline">Hi, I'm Andrea —<br>your organized <span class="highlight">virtual assistant</span> in training.</h1>
+      <p class="lede">3rd year BS Information Technology student from Victoria, Oriental Mindoro, building a career around clean documents, tidy inboxes, and details nobody else catches.</p>
+      <div class="hero-actions">
+        <a href="work.html" class="btn btn-solid">See my skills &amp; work</a>
+        <a href="contact.html" class="btn btn-outline">Get in touch</a>
+      </div>
     </div>
-    <p class="hero-note">hi, thanks for stopping by my little corner of the internet ✨</p>
+
+    <!-- position: relative context for the absolutely-positioned blob + notes -->
+    <div class="hero-visual">
+      <div class="blob"></div>
+      <div class="tag-note n1">📊 Excel</div>
+      <div class="tag-note n2">🗂️ File Mgmt</div>
+      <div class="tag-note n3">✉️ Email</div>
+      <div class="tag-note n4">⏱️ Time Mgmt</div>
+    </div>
+  </div>
 </header>
 
-<section id="about" class="container reveal">
-    <div class="section-label">
-        <span class="tape"></span>
-        <h2>The Full Story</h2>
+<!-- fluid stat grid -->
+<div class="wrap">
+  <div class="stat-strip">
+    <div class="stat-card">
+      <div class="num">3rd</div>
+      <div class="label">Year, BSIT</div>
     </div>
-    <div class="note-card">
-        <p>
-            I'm a Bachelor of Science in Information Technology (BSIT) student with strong computer
-            and administrative skills. Through my academic projects and daily computer work, I've
-            developed experience using Microsoft Office, Google Workspace, data entry, internet
-            research, document organization, and file management.
-        </p>
-        <p>
-            I'm a fast learner who follows instructions carefully and pays close attention to detail.
-            I'm dependable, organized, and committed to producing accurate, high-quality work while
-            meeting deadlines.
-        </p>
-        <p>
-            Although I'm new to virtual assistance, I'm eager to learn, adapt quickly, and provide
-            reliable support to help clients achieve their goals &mdash; and build long-term
-            professional relationships along the way.
-        </p>
-        <span class="signature">&mdash; Andrea</span>
+    <div class="stat-card">
+      <div class="num">11+</div>
+      <div class="label">Admin &amp; office skills</div>
     </div>
-</section>
+    <div class="stat-card">
+      <div class="num">100%</div>
+      <div class="label">Detail-checked work</div>
+    </div>
+  </div>
+</div>
 
-<section id="skills" class="container reveal">
-    <div class="section-label">
-        <span class="tape tape-mint"></span>
-        <h2>Skill Set</h2>
+<!-- ABOUT -->
+<section class="section section-alt">
+  <div class="wrap about-grid">
+    <div class="info-card">
+      <div class="info-row"><span>Full name</span><span>Andrea Amido</span></div>
+      <div class="info-row"><span>Program</span><span>BS Information Technology</span></div>
+      <div class="info-row"><span>Year level</span><span>3rd Year</span></div>
+      <div class="info-row"><span>School</span><span>Mindoro State University</span></div>
+      <div class="info-row"><span>Location</span><span>Victoria, Oriental Mindoro</span></div>
+      <div class="info-row"><span>Open to</span><span>Virtual assistance &amp; admin work</span></div>
     </div>
-    <div class="stamp-grid">
-        <div class="stamp"><span class="stamp-name">Microsoft Excel</span><span class="stamp-stars">●●●●○</span></div>
-        <div class="stamp"><span class="stamp-name">Microsoft Word</span><span class="stamp-stars">●●●●○</span></div>
-        <div class="stamp"><span class="stamp-name">Microsoft PowerPoint</span><span class="stamp-stars">●●●●○</span></div>
-        <div class="stamp"><span class="stamp-name">Google Sheets</span><span class="stamp-stars">●●●●○</span></div>
-        <div class="stamp"><span class="stamp-name">Data Entry</span><span class="stamp-stars">●●●●○</span></div>
-        <div class="stamp"><span class="stamp-name">Email Management</span><span class="stamp-stars">●●●●○</span></div>
-        <div class="stamp"><span class="stamp-name">Calendar Management</span><span class="stamp-stars">●●●●○</span></div>
-        <div class="stamp"><span class="stamp-name">File Management</span><span class="stamp-stars">●●●●○</span></div>
-        <div class="stamp"><span class="stamp-name">Attention to Detail</span><span class="stamp-stars">●●●●○</span></div>
-        <div class="stamp"><span class="stamp-name">Typing / Transcription</span><span class="stamp-stars">●●●●○</span></div>
-        <div class="stamp"><span class="stamp-name">Time Management</span><span class="stamp-stars">●●●●○</span></div>
+    <div>
+      <span class="eyebrow">About me</span>
+      <h2>Detail-oriented, and always learning.</h2>
+      <p>I'm a Bachelor of Science in Information Technology student with strong computer and administrative skills. Through academic projects and everyday computer work, I've built hands-on experience with Microsoft Office, Google Workspace, data entry, internet research, document organization, and file management.</p>
+      <p>I'm a fast learner who follows instructions carefully and pays close attention to detail — dependable, organized, and committed to producing accurate, high-quality work while meeting deadlines.</p>
+      <p>I'm new to virtual assistance, but I'm eager to learn, adapt quickly, and provide reliable support that helps clients reach their goals — while building long-term professional relationships along the way.</p>
+      <a href="work.html" class="btn btn-outline" style="margin-top:8px;">View my skills in detail →</a>
     </div>
-</section>
-
-<section id="desk" class="container reveal">
-    <div class="section-label">
-        <span class="tape tape-coral"></span>
-        <h2>On My Desk</h2>
-    </div>
-    <div class="sticky-grid">
-        <div class="sticky sticky-yellow">
-            <span class="sticky-label">Work Type</span>
-            <span class="sticky-value">Part-time<br>4 hrs/day</span>
-        </div>
-        <div class="sticky sticky-mint">
-            <span class="sticky-label">Rate</span>
-            <span class="sticky-value">₱120/hr<br>₱10,560/mo</span>
-        </div>
-        <div class="sticky sticky-coral">
-            <span class="sticky-label">Education</span>
-            <span class="sticky-value">BSIT<br>(in progress)</span>
-        </div>
-        <div class="sticky sticky-yellow">
-            <span class="sticky-label">Based in</span>
-            <span class="sticky-value">Victoria,<br>Oriental Mindoro</span>
-        </div>
-    </div>
-</section>
-
-<section id="contact" class="container reveal contact-section">
-    <div class="section-label center">
-        <h2>Say Hi 👋</h2>
-    </div>
-    <p class="contact-copy">Got a task on your to-do list that needs an extra pair of hands? Let's talk.</p>
-    <div class="contact-links">
-        <a href="#" class="btn">OnlineJobs.ph Profile</a>
-        <a href="mailto:you@example.com" class="btn btn-outline">Email Me</a>
-    </div>
+  </div>
 </section>
 
 <footer>
-    <p>Made with ☕ and a lot of sticky notes &middot; &copy; 2026 Andrea Amido</p>
+  <div class="wrap footer-grid">
+    <div>
+      <h4>Andrea Amido</h4>
+      <p>BSIT student &amp; aspiring virtual assistant, based in Victoria, Oriental Mindoro.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Skills &amp; Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Say hello</h4>
+      <ul>
+        <li><a href="contact.html">Contact page →</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Andrea Amido. All rights reserved.</span>
+    <span>Built for ITE 221 — Web Systems and Technologies 1</span>
+  </div>
 </footer>
 
+<button class="to-top" aria-label="Back to top">↑</button>
+<script src="script.js"></script>
 </body>
 </html>

@@ -5,17 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Andrea Amido — Administrative & Virtual Assistant Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="ribbon">Open for work</div>
-
-<!-- position: sticky nav -->
 <nav class="site-nav">
   <div class="wrap nav-inner">
-    <a href="index.html" class="brand"><span class="dot"></span> Andrea Amido</a>
+    <a href="index.html" class="brand">Andrea Amido</a>
     <ul class="nav-links">
       <li><a href="index.html" class="active">Home</a></li>
       <li><a href="work.html">Skills &amp; Work</a></li>
@@ -29,92 +26,64 @@
 
 <!-- HERO -->
 <header class="hero">
-  <div class="wrap hero-grid">
-    <div>
-      <span class="eyebrow">BSIT Student · Mindoro State University</span>
-      <h1 class="headline">Hi, I'm Andrea —<br>your organized <span class="highlight">virtual assistant</span> in training.</h1>
-      <p class="lede">3rd year BS Information Technology student from Victoria, Oriental Mindoro, building a career around clean documents, tidy inboxes, and details nobody else catches.</p>
-      <div class="hero-actions">
-        <a href="work.html" class="btn btn-solid">See my skills &amp; work</a>
-        <a href="contact.html" class="btn btn-outline">Get in touch</a>
-      </div>
+  <div class="wrap">
+    <div class="corner-mark" aria-hidden="true"></div>
+    <span class="eyebrow">BSIT Student · Mindoro State University</span>
+    <h1>Hi, I'm Andrea — your organized <mark class="hl">virtual assistant</mark> in training.</h1>
+    <p class="lede">3rd year BS Information Technology student from Victoria, Oriental Mindoro, building a career around clean documents, tidy inboxes, and details nobody else catches.</p>
+
+    <div class="hero-actions">
+      <a href="work.html" class="btn btn-solid">See my skills &amp; work</a>
+      <a href="contact.html" class="link-arrow">Get in touch →</a>
     </div>
 
-    <!-- position: relative context for the absolutely-positioned blob + notes -->
-    <div class="hero-visual">
-      <div class="blob"></div>
-      <div class="tag-note n1">📊 Excel</div>
-      <div class="tag-note n2">🗂️ File Mgmt</div>
-      <div class="tag-note n3">✉️ Email</div>
-      <div class="tag-note n4">⏱️ Time Mgmt</div>
+    <div class="meta-row">
+      <div class="meta-item">
+        <span class="num">3rd</span>
+        <span class="label">Year, BSIT</span>
+      </div>
+      <div class="meta-item">
+        <span class="num">11+</span>
+        <span class="label">Admin &amp; office skills</span>
+      </div>
+      <div class="meta-item">
+        <span class="num">Open</span>
+        <span class="label">To virtual assistant roles</span>
+      </div>
     </div>
   </div>
 </header>
 
-<!-- fluid stat grid -->
-<div class="wrap">
-  <div class="stat-strip">
-    <div class="stat-card">
-      <div class="num">3rd</div>
-      <div class="label">Year, BSIT</div>
-    </div>
-    <div class="stat-card">
-      <div class="num">11+</div>
-      <div class="label">Admin &amp; office skills</div>
-    </div>
-    <div class="stat-card">
-      <div class="num">100%</div>
-      <div class="label">Detail-checked work</div>
-    </div>
-  </div>
-</div>
-
 <!-- ABOUT -->
 <section class="section section-alt">
   <div class="wrap about-grid">
-    <div class="info-card">
-      <div class="info-row"><span>Full name</span><span>Andrea Amido</span></div>
-      <div class="info-row"><span>Program</span><span>BS Information Technology</span></div>
-      <div class="info-row"><span>Year level</span><span>3rd Year</span></div>
-      <div class="info-row"><span>School</span><span>Mindoro State University</span></div>
-      <div class="info-row"><span>Location</span><span>Victoria, Oriental Mindoro</span></div>
-      <div class="info-row"><span>Open to</span><span>Virtual assistance &amp; admin work</span></div>
-    </div>
+    <ul class="info-list">
+      <li><span>Full name</span><span>Andrea Amido</span></li>
+      <li><span>Program</span><span>BS Information Technology</span></li>
+      <li><span>Year level</span><span>3rd Year</span></li>
+      <li><span>School</span><span>Mindoro State University</span></li>
+      <li><span>Location</span><span>Victoria, Oriental Mindoro</span></li>
+      <li><span>Open to</span><span>Virtual assistance &amp; admin work</span></li>
+    </ul>
     <div>
       <span class="eyebrow">About me</span>
       <h2>Detail-oriented, and always learning.</h2>
-      <p>I'm a Bachelor of Science in Information Technology student with strong computer and administrative skills. Through academic projects and everyday computer work, I've built hands-on experience with Microsoft Office, Google Workspace, data entry, internet research, document organization, and file management.</p>
+      <p>I'm a Bachelor of Science in Information Technology student with strong computer and administrative skills. Through academic projects and everyday computer work, I've built hands-on experience with <mark class="hl">Microsoft Office</mark>, Google Workspace, data entry, internet research, document organization, and file management.</p>
       <p>I'm a fast learner who follows instructions carefully and pays close attention to detail — dependable, organized, and committed to producing accurate, high-quality work while meeting deadlines.</p>
       <p>I'm new to virtual assistance, but I'm eager to learn, adapt quickly, and provide reliable support that helps clients reach their goals — while building long-term professional relationships along the way.</p>
-      <a href="work.html" class="btn btn-outline" style="margin-top:8px;">View my skills in detail →</a>
+      <a href="work.html" class="link-arrow">View my skills in detail →</a>
     </div>
   </div>
 </section>
 
 <footer>
-  <div class="wrap footer-grid">
-    <div>
-      <h4>Andrea Amido</h4>
-      <p>BSIT student &amp; aspiring virtual assistant, based in Victoria, Oriental Mindoro.</p>
+  <div class="wrap footer-row">
+    <span>© 2026 Andrea Amido</span>
+    <div class="foot-links">
+      <a href="index.html">Home</a>
+      <a href="work.html">Skills &amp; Work</a>
+      <a href="contact.html">Contact</a>
     </div>
-    <div>
-      <h4>Explore</h4>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="work.html">Skills &amp; Work</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4>Say hello</h4>
-      <ul>
-        <li><a href="contact.html">Contact page →</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="wrap footer-bottom">
-    <span>© 2026 Andrea Amido. All rights reserved.</span>
-    <span>Built for ITE 221 — Web Systems and Technologies 1</span>
   </div>
 </footer>
 
